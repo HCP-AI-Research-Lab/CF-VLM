@@ -13,7 +13,9 @@
 
 ## 摘要
 
-近年来，视觉-语言模型（VLMs）在跨模态语义理解方面取得了显著进展，但在细粒度判别与深层因果推理任务上仍存在明显局限。现有 VLM 常依赖表层统计相关，难以刻画视觉与文本之间的因果逻辑。为此，我们提出 **CounterFactual Vision-Language Fine-tuning (CF-VLM)**：通过**有针对性地引入反事实样本**，在不破坏基础跨模态对齐的前提下，增强模型在**唯一性/稳定性**与**关键因果微编辑**上的敏感度，从而提升组合推理、泛化与事实一致性。大量实验显示，CF-VLM 在多项推理基准上优于强基线与最新方法，并对减轻视觉幻觉具有潜在帮助。详见论文获取理论细节与完整实验。
+近年来，视觉-语言模型（VLMs）在跨模态语义理解方面取得了显著进展，但在细粒度判别与深层因果推理任务上仍存在明显局限。现有 VLM 常依赖表层统计相关，难以刻画视觉与文本之间的因果逻辑。为此，我们提出 **CounterFactual Vision-Language Fine-tuning (CF-VLM)**：通过**有针对性地引入反事实样本**，在不破坏基础跨模态对齐的前提下，增强模型在**唯一性/稳定性**与**关键因果微编辑**上的敏感度，从而提升组合推理、泛化与事实一致性。大量实验显示，CF-VLM 在多项推理基准上优于强基线与最新方法，并对减轻视觉幻觉具有潜在帮助。
+
+详见[论文](https://arxiv.org/abs/2506.17267)获取理论细节与完整实验。
 
 ---
 
@@ -55,7 +57,7 @@
 
 4. 配置 Qwen2.5-VL 推理模型  
    请参照官方文档完成部署与权限配置：  
-   👉 Qwen 官方文档：https://github.com/QwenLM/Qwen3-VL  
+   👉 Qwen 官方文档：https://github.com/QwenLM/Qwen2.5-VL  
 
 ---
 
@@ -85,13 +87,7 @@ CF-VLM/
 ├─ process.py
 ├─ clip_train.py
 ├─ Qwen_train.py
-├─ inference.py
 ├─ requirements.txt
-├─ configs/
-│   ├─ data.yaml
-│   ├─ clip.yaml
-│   ├─ qwen.yaml
-│   └─ infer.yaml
 ├─ README.md
 └─ README_zh.md
 ```

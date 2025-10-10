@@ -25,6 +25,8 @@ and sharpening the model’s sensitivity to minimal but critical causal edits. E
 baselines and state-of-the-art methods on compositional reasoning and generalization benchmarks. Furthermore, it shows promise in mitigating visual hallucinations,
 indicating improved factual consistency. Our CF-VLM provides a robust foundation for deploying VLMs in high-stakes, real-world scenarios requiring reliable
 reasoning and interpretability.
+
+
 See the [paper](https://arxiv.org/abs/2506.17267) for theoretical details and full experiments.
 
 ---

@@ -31,6 +31,26 @@ See the [paper](https://arxiv.org/abs/2506.17267) for theoretical details and fu
 
 ---
 
+## Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your_org/CF-VLM.git
+   cd CF-VLM
+   ```
+2. (Optional) Create a virtual environment:
+   ```bash
+   python3 -m venv .venv && source .venv/bin/activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Configure the Qwen2.5-VL inference model according to the official [Qwen documentation](https://github.com/QwenLM/Qwen3-VL?spm=a2c6h.13046898.publish-article.4.377d6ffa93GtOt).
+
+---
+
+
 
 ## Citation
 

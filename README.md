@@ -50,7 +50,24 @@ See the [paper](https://arxiv.org/abs/2506.17267) for theoretical details and fu
 
 ---
 
+## Quick Start
 
+1. Run process.py to generate counterfactual data.
+   ```bash
+   python process.py
+   ```
+
+2. Run clip_train.py to train the CLIP model.
+   ```bash
+   python clip_train.py
+   ```
+
+3. Run Qwen_train.py to train the Qwen model.
+   ```bash
+   python Qwen_train.py
+   ```
+   
+---
 
 ## Citation
 

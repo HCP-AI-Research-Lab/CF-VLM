@@ -14,7 +14,9 @@
 ## Abstract
 
 Recent years have witnessed remarkable progress in Vision-Language Models (VLMs) for cross-modal semantic understanding. However, they still struggle with fine-grained discrimination and deep causal reasoning tasks. Existing VLMs often rely on surface-level statistical correlations, failing to capture the causal logic between vision and text.  
-To address this, we propose **CounterFactual Vision-Language Fine-tuning (CF-VLM)**: by **injecting targeted counterfactual samples**, we enhance model sensitivity to **uniqueness/stability** and **key causal micro-edits**, without disrupting basic cross-modal alignment. This improves compositional reasoning, generalization, and factual consistency. Extensive experiments show that CF-VLM outperforms strong baselines and SOTA methods across multiple reasoning benchmarks, while also alleviating visual hallucination. Please refer to the paper for theoretical details and full experiments.
+To address this, we propose **CounterFactual Vision-Language Fine-tuning (CF-VLM)**: by **injecting targeted counterfactual samples**, we enhance model sensitivity to **uniqueness/stability** and **key causal micro-edits**, without disrupting basic cross-modal alignment. This improves compositional reasoning, generalization, and factual consistency. Extensive experiments show that CF-VLM outperforms strong baselines and SOTA methods across multiple reasoning benchmarks, while also alleviating visual hallucination. 
+
+Please refer to the [paper](https://arxiv.org/abs/2506.17267) for theoretical details and full experiments.
 
 ---
 
@@ -86,13 +88,7 @@ CF-VLM/
 ├─ process.py
 ├─ clip_train.py
 ├─ Qwen_train.py
-├─ inference.py
 ├─ requirements.txt
-├─ configs/
-│   ├─ data.yaml
-│   ├─ clip.yaml
-│   ├─ qwen.yaml
-│   └─ infer.yaml
 ├─ README.md
 └─ README_zh.md
 ```
@@ -122,10 +118,13 @@ CF-VLM/
 
 If you find this project useful, please cite:
 ```bibtex
-@article{cfvlm2025,
-  title={CF-VLM: CounterFactual Vision-Language Fine-tuning},
-  author={Your Name et al.},
-  journal={NeurIPS},
-  year={2025}
+@misc{zhang2025cfvlmcounterfactualvisionlanguagefinetuning,
+      title={CF-VLM:CounterFactual Vision-Language Fine-tuning}, 
+      author={Jusheng Zhang and Kaitong Cai and Yijia Fan and Jian Wang and Keze Wang},
+      year={2025},
+      eprint={2506.17267},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.17267}, 
 }
 ```

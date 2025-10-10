@@ -22,4 +22,24 @@ baselines and state-of-the-art methods on compositional reasoning and generaliza
 indicating improved factual consistency. Our CF-VLM provides a robust foundation for deploying VLMs in high-stakes, real-world scenarios requiring reliable
 reasoning and interpretability.
 
+
+See the [paper](https://arxiv.org/abs/2506.17267) for theoretical details and full experiments.
+---
+
+
+## Citation
+
+If you use this project, please cite:
+```bibtex
+@misc{zhang2025cfvlmcounterfactualvisionlanguagefinetuning,
+      title={CF-VLM:CounterFactual Vision-Language Fine-tuning}, 
+      author={Jusheng Zhang and Kaitong Cai and Yijia Fan and Jian Wang and Keze Wang},
+      year={2025},
+      eprint={2506.17267},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.17267}, 
+}
+```
+
 ---

@@ -58,7 +58,7 @@ Please refer to the [paper](https://arxiv.org/abs/2506.17267) for theoretical de
 
 4. Configure the Qwen2.5-VL inference model  
    Please follow the official documentation for deployment and API setup:  
-   👉 Qwen official documentation: https://github.com/QwenLM/Qwen3-VL  
+   👉 Qwen official documentation: https://github.com/QwenLM/Qwen2.5-VL  
 
 ---
 
